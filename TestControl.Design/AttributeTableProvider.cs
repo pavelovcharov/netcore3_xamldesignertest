@@ -16,6 +16,7 @@ namespace TestControl.Design {
                 AttributeTableBuilder builder = new AttributeTableBuilder();
                 //builder.AddCustomAttributes("MyLibrary.MyControl", new DescriptionAttribute(Strings.MyControlDescription);
                 builder.AddCustomAttributes("TestControl.TestControl", new FeatureAttribute(typeof(TestControlDefaultInitializer)));
+                builder.AddCustomAttributes("TestControl.TestControl", new FeatureAttribute(typeof(TestControlContextMenuProvider)));
                 return builder.CreateTable();
             }
         }

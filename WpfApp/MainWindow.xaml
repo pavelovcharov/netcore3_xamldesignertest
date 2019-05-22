@@ -8,5 +8,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <testControl:TestControl Content="Test" Background="Red" HorizontalAlignment="Center" VerticalAlignment="Center" MinHeight="40" MinWidth="100" />
     </Grid>
 </Window>

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestControlContextMenuProvider.cs" />
     <Compile Include="TestControlDefaultInitializer.cs" />
     <Compile Include="AttributeTableProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
