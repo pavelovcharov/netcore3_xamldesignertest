@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1 {
+namespace WpfApp {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -21,14 +21,5 @@ namespace WpfApp1 {
         public MainWindow() {
             InitializeComponent();
         }
-    }
-
-    public class TestControl : ContentControl {
-        static TestControl() {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(TestControl), new FrameworkPropertyMetadata(typeof(TestControl)));
-        }
-        //public TestControl() {
-        //    DefaultStyleKey = typeof(TestControl);
-        //}
     }
 }
