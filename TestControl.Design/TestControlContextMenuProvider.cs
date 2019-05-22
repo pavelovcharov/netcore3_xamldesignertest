@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
+﻿using System.Windows;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Interaction;
-using Microsoft.VisualStudio.DesignTools.Extensibility.Model;
 
 namespace TestControl.Design {
 
@@ -15,7 +9,14 @@ namespace TestControl.Design {
         }
 
         private void TestControlContextMenuProvider_UpdateItemStatus(object sender, MenuActionEventArgs e) {
-            Items.Add(new MenuAction("test action"));
+            var action1 = new MenuAction("msgbox");
+            action1.Execute += Action1_Execute;
+            Items.Add(action1);
+            Items.Add(new MenuAction("test action2"));
+        }
+
+        private void Action1_Execute(object sender, MenuActionEventArgs e) {
+            MessageBox.Show("TestControlContextMenuProvider_UpdateItemStatus!");
         }
     }
 }
