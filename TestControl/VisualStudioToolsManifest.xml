@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FileList>
+  <File Reference = "TestControl.dll" >
+    <ToolboxItems VSCategory="Managed Package" BlendCategory="Managed Package">
+      <Item Type="TestControl.TestControl"/>
+    </ToolboxItems>
+  </File>
+</FileList>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>TestControl</id>
+    <version>1.0.20</version>
+    <title>TestControl</title>
+    <authors>Ovcharov.Pavel</authors>
+    <owners>Ovcharov.Pavel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+    <references>
+      <group targetFramework=".NETCoreApp3.0">
+        <reference file="TestControl.dll" />
+      </group>
+    </references>	
+  </metadata>
+  <files>
+    <file src="..\bin\TestControl.dll" target="lib\netcoreapp3.0"/>
+    <file src="..\bin\TestControl.designtools.dll" target="lib\netcoreapp3.0"/>
+    <file src="..\bin\TestControl.designtools.dll" target="lib\netcoreapp3.0\Design"/>
+    <file src="VisualStudioToolsManifest.xml" target="tools"/>
+    <!--<file src="..\ManagedPackage.Design\bin\Release\ManagedPackage.Design.dll" target="lib\uap10.0.14393\Design"/>-->
+  </files>
+</package>
