@@ -12,6 +12,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestControl", "TestControl\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestControl.Design", "TestControl.Design\TestControl.Design.csproj", "{8DB141C8-D3B6-4BC2-BA51-7F63546239EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManifestCreator.NetCore", "ConsoleApp1\ManifestCreator.NetCore.csproj", "{83E3308D-BCCF-4603-8530-EDCFBCB9EB69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManifestCreator.NetFramework", "ManifestCreator.NetFramework\ManifestCreator.NetFramework.csproj", "{D56F7935-FB01-4BFB-8F0B-F836AE4C9599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,14 @@ Global
 		{8DB141C8-D3B6-4BC2-BA51-7F63546239EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB141C8-D3B6-4BC2-BA51-7F63546239EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB141C8-D3B6-4BC2-BA51-7F63546239EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E3308D-BCCF-4603-8530-EDCFBCB9EB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E3308D-BCCF-4603-8530-EDCFBCB9EB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E3308D-BCCF-4603-8530-EDCFBCB9EB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E3308D-BCCF-4603-8530-EDCFBCB9EB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56F7935-FB01-4BFB-8F0B-F836AE4C9599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56F7935-FB01-4BFB-8F0B-F836AE4C9599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56F7935-FB01-4BFB-8F0B-F836AE4C9599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56F7935-FB01-4BFB-8F0B-F836AE4C9599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

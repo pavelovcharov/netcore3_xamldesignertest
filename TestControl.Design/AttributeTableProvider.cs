@@ -10,7 +10,7 @@ namespace TestControl.Design {
 
     public static class AttributeTableBuilderExtensions {
         private const string CompanyToolboxCategoryPath = "Test Category/";
-        private const string CompanyToolboxTabName = "Test Tab";
+        private const string CompanyToolboxTabName = "Test Tab: ";
         public static void RegisterControls(this AttributeTableBuilder builder, string categoryPath, params string[] controlTypes) {
             builder.ShowControls(controlTypes);
             builder.AddAttribute(new ToolboxCategoryAttribute(CompanyToolboxCategoryPath + categoryPath), controlTypes);
@@ -37,7 +37,7 @@ namespace TestControl.Design {
                 builder.AddCustomAttributes("TestControl.TestControl", new FeatureAttribute(typeof(TestControlContextMenuProvider)));
 
 
-                builder.RegisterControls("test_cat", "TestControl.TestControl");
+                builder.RegisterControls("MyTestControls", "TestControl.TestControl");
 
                 return builder.CreateTable();
             }
