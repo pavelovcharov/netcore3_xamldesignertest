@@ -12,13 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Icons\TestControl.TestControl.bmp" />
     <None Remove="Icons\TestControl.TestControl.png" />
     <None Remove="Themes\Generic.xaml" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Icons\TestControl.TestControl.bmp" />
     <EmbeddedResource Include="Icons\TestControl.TestControl.png" />
   </ItemGroup>
 

@@ -17,8 +17,6 @@
   <files>
     <file src="..\bin\TestControl.dll" target="lib\netcoreapp3.0"/>
     <file src="..\bin\TestControl.designtools.dll" target="lib\netcoreapp3.0"/>
-    <file src="..\bin\TestControl.designtools.dll" target="lib\netcoreapp3.0\Design"/>
     <file src="VisualStudioToolsManifest.xml" target="tools"/>
-    <!--<file src="..\ManagedPackage.Design\bin\Release\ManagedPackage.Design.dll" target="lib\uap10.0.14393\Design"/>-->
   </files>
 </package>
